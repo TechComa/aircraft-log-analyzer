@@ -20,13 +20,22 @@ I used a publicly available dataset from [Kaggle](https://www.kaggle.com/dataset
 - Python (pandas, matplotlib, seaborn)
 - VS Code
 - Git & GitHub
+- matplotlib
+- pandas
+- seaborn
 
 ## 📂 Project Structure
 
 - `data/`: cleaned dataset
 - `src/`: Python scripts for data cleaning & EDA
 - `outputs/`: final summary report
-- `screenshots/`: saved visualizations 
+- `screenshots/`: saved visualizations
+
+## 🧼 Cleaning Steps
+- Removed non-informative columns (`Company`, `Model`, etc.)
+- Standardized column names
+- Handled 55–57% missing data with strategic imputation
+- Exported cleaned dataset to CSV
 
 ## 📈 Sample Visualizations
 <img width="1000" height="800" alt="correlation_heatmap" src="https://github.com/user-attachments/assets/daf6da3a-08ba-4c14-b05f-8d5cdbbb62fc" />
